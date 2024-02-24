@@ -1,0 +1,6 @@
+|compuerta_and
+e1 => s1.IN0
+e2 => s1.IN1
+s1 <= s1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,67 @@
+$comment
+	File created using the following command:
+		vcd file practicas.msim.vcd -direction
+$end
+$date
+	Fri Feb 23 23:08:42 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module compuerta_and_vlg_vec_tst $end
+$var reg 1 ! e1 $end
+$var reg 1 " e2 $end
+$var wire 1 # s1 $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + s1~output_o $end
+$var wire 1 , e2~input_o $end
+$var wire 1 - e1~input_o $end
+$var wire 1 . s1~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+0,
+0-
+0.
+$end
+#250000
+1"
+1,
+0$
+#500000
+1!
+0"
+1-
+0,
+1$
+#750000
+1"
+1,
+0$
+1.
+1+
+1#
+#1000000

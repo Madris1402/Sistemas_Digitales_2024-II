@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, D:/Escritorio/Practicas/compuerta_and.v
+source_file = 1, D:/Escritorio/Practicas/compuerta_and.vwf
+source_file = 1, D:/Escritorio/Practicas/db/practicas.cbx.xml
+design_name = compuerta_and
+instance = comp, \s1~output , s1~output, compuerta_and, 1
+instance = comp, \e2~input , e2~input, compuerta_and, 1
+instance = comp, \e1~input , e1~input, compuerta_and, 1
+instance = comp, \s1~0 , s1~0, compuerta_and, 1

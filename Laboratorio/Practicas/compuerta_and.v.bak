@@ -1,0 +1,9 @@
+module compuerta_and (e1, e2, s1);
+	
+	input 	e1;
+	input 	e2;
+	output 	s1;
+	
+	output s1 = (s1 && s2);
+	
+endmodule 
