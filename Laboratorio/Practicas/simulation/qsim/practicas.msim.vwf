@@ -177,8 +177,8 @@ TRANSITION_LIST("compuerta_and_vlg_vec_tst|e1")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 500.0;
 		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 500.0;
 	}
 }
 
@@ -187,10 +187,10 @@ TRANSITION_LIST("compuerta_and_vlg_vec_tst|e2")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 250.0;
 		LEVEL 1 FOR 250.0;
 		LEVEL 0 FOR 250.0;
 		LEVEL 1 FOR 250.0;
+		LEVEL 0 FOR 250.0;
 	}
 }
 
@@ -285,10 +285,10 @@ TRANSITION_LIST("compuerta_and_vlg_vec_tst|i1|e2~input_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 250.0;
 		LEVEL 1 FOR 250.0;
 		LEVEL 0 FOR 250.0;
 		LEVEL 1 FOR 250.0;
+		LEVEL 0 FOR 250.0;
 	}
 }
 
@@ -297,8 +297,8 @@ TRANSITION_LIST("compuerta_and_vlg_vec_tst|i1|e1~input_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 500.0;
 		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 500.0;
 	}
 }
 
@@ -307,8 +307,8 @@ TRANSITION_LIST("compuerta_and_vlg_vec_tst|i1|s1~0_combout")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 750.0;
-		LEVEL 1 FOR 250.0;
+		LEVEL 1 FOR 750.0;
+		LEVEL 0 FOR 250.0;
 	}
 }
 

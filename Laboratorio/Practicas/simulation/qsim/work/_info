@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dD:\Escritorio\Practicas\simulation\qsim
 vcompuerta_and
-Z1 I>6bdJicMZ]E5[34H0Qoja2
+Z1 I`aiYY=F6j]H79XATd<nED0
 Z2 VQ2FG09MFcCb70ILjl8@_12
-Z3 dD:\Escritorio\Practicas\simulation\qsim
-Z4 w1708751319
+Z3 dD:\Escritorio\Sistemas_Digitales_2024-II\Laboratorio\Practicas\simulation\qsim
+Z4 w1708752362
 Z5 8practicas.vo
 Z6 Fpracticas.vo
 L0 31
 Z7 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z8 !s90 -work|work|practicas.vo|
+Z9 o-work work -O0
 !i10b 1
-Z9 !s100 giHh<Xe6fMTV;]3LlJX=M3
+Z10 !s100 527afV8I=KCXfeW<H<j_i1
 !s85 0
-Z10 !s108 1708751321.148000
-Z11 !s107 practicas.vo|
-Z12 !s90 -work|work|practicas.vo|
+Z11 !s108 1708752362.925000
+Z12 !s107 practicas.vo|
 !s101 -O0
 vcompuerta_and_vlg_check_tst
 !i10b 1
-!s100 0JBlXk@PFB=NDcR`K7Kh72
-IOd3YU7j@]S04fMNV`]17P3
-V@dK6I1^dNeGA;BQg0cAh=0
+Z13 !s100 0JBlXk@PFB=NDcR`K7Kh72
+Z14 IOd3YU7j@]S04fMNV`]17P3
+Z15 V@dK6I1^dNeGA;BQg0cAh=0
 R3
-R4
-Z13 8practicas.vt
-Z14 Fpracticas.vt
+Z16 w1708752361
+Z17 8practicas.vt
+Z18 Fpracticas.vt
 L0 59
 R7
 r1
 !s85 0
 31
-Z15 !s108 1708751321.319000
-Z16 !s107 practicas.vt|
-Z17 !s90 -work|work|practicas.vt|
+Z19 !s108 1708752363.052000
+Z20 !s107 practicas.vt|
+Z21 !s90 -work|work|practicas.vt|
 !s101 -O0
-R8
+R9
 vcompuerta_and_vlg_sample_tst
 !i10b 1
-!s100 M8dk?_2G;oR^:Y8fYDOJJ1
-I<20cLO372VGK[aUkNEj6V0
-VmIN`XQ=<45RmO5LJfOl2k0
+Z22 !s100 M8dk?_2G;oR^:Y8fYDOJJ1
+Z23 I<20cLO372VGK[aUkNEj6V0
+Z24 VmIN`XQ=<45RmO5LJfOl2k0
 R3
-R4
-R13
-R14
+R16
+R17
+R18
 L0 29
 R7
 r1
 !s85 0
 31
-R15
-R16
-R17
+R19
+R20
+R21
 !s101 -O0
-R8
+R9
 vcompuerta_and_vlg_vec_tst
 !i10b 1
-!s100 54bA^N>UBJPT1A`H_LPgA0
-I3miSJFOR2KOQ5B]dC=Vh22
-VkBQLZXgGaHIgoTTUPVkFa1
+!s100 <?^ha?f04Ta@TE:;gDBg`1
+IajG0j;`7i[V^h2W]e9z7_3
+Z25 VkBQLZXgGaHIgoTTUPVkFa1
 R3
-R4
-R13
-R14
-L0 154
+R16
+R17
+R18
+Z26 L0 154
 R7
 r1
 !s85 0
 31
-R15
-R16
-R17
+R19
+R20
+R21
 !s101 -O0
-R8
+R9

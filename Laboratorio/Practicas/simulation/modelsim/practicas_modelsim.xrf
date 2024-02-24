@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, D:/Escritorio/Practicas/compuerta_and.v
-source_file = 1, D:/Escritorio/Practicas/compuerta_and.vwf
-source_file = 1, D:/Escritorio/Practicas/db/practicas.cbx.xml
+source_file = 1, D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas/compuerta_and.v
+source_file = 1, D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas/compuerta_and.vwf
+source_file = 1, D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas/db/practicas.cbx.xml
 design_name = compuerta_and
 instance = comp, \s1~output , s1~output, compuerta_and, 1
 instance = comp, \e2~input , e2~input, compuerta_and, 1

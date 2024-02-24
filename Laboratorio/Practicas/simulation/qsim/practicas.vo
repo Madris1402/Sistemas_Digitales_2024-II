@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "02/23/2024 23:08:39"
+// DATE "02/23/2024 23:26:02"
 
 // 
 // Device: Altera EP3C16F484C6 Package FBGA484
@@ -61,7 +61,7 @@ wire \s1~0_combout ;
 
 // Location: IOOBUF_X0_Y3_N9
 cycloneiii_io_obuf \s1~output (
-	.i(\s1~0_combout ),
+	.i(!\s1~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
@@ -95,7 +95,7 @@ defparam \e1~input .simulate_z_as = "z";
 // Location: LCCOMB_X1_Y3_N16
 cycloneiii_lcell_comb \s1~0 (
 // Equation(s):
-// \s1~0_combout  = (\e2~input_o  & \e1~input_o )
+// \s1~0_combout  = (\e2~input_o ) # (\e1~input_o )
 
 	.dataa(gnd),
 	.datab(gnd),
@@ -105,7 +105,7 @@ cycloneiii_lcell_comb \s1~0 (
 	.combout(\s1~0_combout ),
 	.cout());
 // synopsys translate_off
-defparam \s1~0 .lut_mask = 16'hF000;
+defparam \s1~0 .lut_mask = 16'hFFF0;
 defparam \s1~0 .sum_lutc_input = "datac";
 // synopsys translate_on
 

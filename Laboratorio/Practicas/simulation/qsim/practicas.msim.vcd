@@ -3,7 +3,7 @@ $comment
 		vcd file practicas.msim.vcd -direction
 $end
 $date
-	Fri Feb 23 23:08:42 2024
+	Fri Feb 23 23:26:04 2024
 $end
 $version
 	ModelSim Version 10.1d
@@ -32,8 +32,8 @@ $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-0!
-0"
+1!
+1"
 0#
 x$
 0%
@@ -43,25 +43,25 @@ x'
 1)
 1*
 0+
-0,
-0-
-0.
+1,
+1-
+1.
 $end
 #250000
-1"
-1,
+0"
+0,
 0$
 #500000
-1!
-0"
-1-
-0,
+0!
+1"
+0-
+1,
 1$
 #750000
-1"
-1,
+0"
+0,
 0$
-1.
+0.
 1+
 1#
 #1000000

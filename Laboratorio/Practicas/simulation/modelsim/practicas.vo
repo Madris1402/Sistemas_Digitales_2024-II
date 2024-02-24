@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "02/23/2024 23:09:18"
+// DATE "02/23/2024 23:33:43"
 
 // 
 // Device: Altera EP3C16F484C6 Package FBGA484
@@ -37,9 +37,9 @@ input 	e2;
 output 	s1;
 
 // Design Ports Information
-// s1	=>  Location: PIN_R6,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// e1	=>  Location: PIN_T5,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// e2	=>  Location: PIN_P6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// s1	=>  Location: PIN_F2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// e1	=>  Location: PIN_F1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// e2	=>  Location: PIN_H2,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 wire gnd;
@@ -59,9 +59,9 @@ wire \e1~input_o ;
 wire \s1~0_combout ;
 
 
-// Location: IOOBUF_X0_Y3_N9
+// Location: IOOBUF_X0_Y24_N23
 cycloneiii_io_obuf \s1~output (
-	.i(\s1~0_combout ),
+	.i(!\s1~0_combout ),
 	.oe(vcc),
 	.seriesterminationcontrol(16'b0000000000000000),
 	.devoe(devoe),
@@ -72,7 +72,7 @@ defparam \s1~output .bus_hold = "false";
 defparam \s1~output .open_drain_output = "false";
 // synopsys translate_on
 
-// Location: IOIBUF_X0_Y4_N8
+// Location: IOIBUF_X0_Y21_N8
 cycloneiii_io_ibuf \e2~input (
 	.i(e2),
 	.ibar(gnd),
@@ -82,7 +82,7 @@ defparam \e2~input .bus_hold = "false";
 defparam \e2~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: IOIBUF_X0_Y3_N1
+// Location: IOIBUF_X0_Y23_N1
 cycloneiii_io_ibuf \e1~input (
 	.i(e1),
 	.ibar(gnd),
@@ -92,20 +92,20 @@ defparam \e1~input .bus_hold = "false";
 defparam \e1~input .simulate_z_as = "z";
 // synopsys translate_on
 
-// Location: LCCOMB_X1_Y3_N16
+// Location: LCCOMB_X1_Y23_N0
 cycloneiii_lcell_comb \s1~0 (
 // Equation(s):
-// \s1~0_combout  = (\e2~input_o  & \e1~input_o )
+// \s1~0_combout  = (\e2~input_o ) # (\e1~input_o )
 
 	.dataa(gnd),
-	.datab(gnd),
-	.datac(\e2~input_o ),
+	.datab(\e2~input_o ),
+	.datac(gnd),
 	.datad(\e1~input_o ),
 	.cin(gnd),
 	.combout(\s1~0_combout ),
 	.cout());
 // synopsys translate_off
-defparam \s1~0 .lut_mask = 16'hF000;
+defparam \s1~0 .lut_mask = 16'hFFCC;
 defparam \s1~0 .sum_lutc_input = "datac";
 // synopsys translate_on
 

@@ -54,7 +54,11 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VECTOR_WAVEFORM_FILE compuerta_and.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Escritorio/Practicas/compuerta_and.vwf"
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas/compuerta_and.vwf"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_F1 -to e1
+set_location_assignment PIN_H2 -to e2
+set_location_assignment PIN_F2 -to s1
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
