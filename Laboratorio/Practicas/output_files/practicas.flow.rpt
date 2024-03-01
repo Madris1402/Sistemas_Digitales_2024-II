@@ -1,5 +1,5 @@
 Flow report for practicas
-Fri Feb 23 23:33:43 2024
+Fri Feb 23 23:58:10 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Feb 23 23:33:43 2024           ;
+; Flow Status                        ; Successful - Fri Feb 23 23:58:10 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; practicas                                       ;
 ; Top-level Entity Name              ; compuerta_and                                   ;
@@ -64,30 +64,30 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/23/2024 23:33:33 ;
+; Start date & time ; 02/23/2024 23:57:41 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; practicas           ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                       ;
-+-------------------------------------+---------------------------------+---------------+---------------+----------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name   ; Section Id     ;
-+-------------------------------------+---------------------------------+---------------+---------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 237901792353627.170875281221040 ; --            ; --            ; --             ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --            ; --            ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --            ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --            ; --             ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --            ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --            ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --            ; --             ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; compuerta_and ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; compuerta_and ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; compuerta_and ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --            ; --             ;
-; TOP_LEVEL_ENTITY                    ; compuerta_and                   ; practicas     ; --            ; --             ;
-+-------------------------------------+---------------------------------+---------------+---------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                      ;
++-------------------------------------+--------------------------------+---------------+---------------+----------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name   ; Section Id     ;
++-------------------------------------+--------------------------------+---------------+---------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 79349034454666.170875426112880 ; --            ; --            ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                             ; --            ; --            ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --            ; --            ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)      ; <None>        ; --            ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --            ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --            ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                           ; --            ; --            ; --             ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; compuerta_and ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; compuerta_and ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; compuerta_and ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --            ; --             ;
+; TOP_LEVEL_ENTITY                    ; compuerta_and                  ; practicas     ; --            ; --             ;
++-------------------------------------+--------------------------------+---------------+---------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -95,12 +95,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4577 MB             ; 00:00:00                           ;
-; Fitter                    ; 00:00:04     ; 1.0                     ; 4881 MB             ; 00:00:01                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4548 MB             ; 00:00:00                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4589 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4496 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:09     ; --                      ; --                  ; 00:00:01                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4576 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:12     ; 1.0                     ; 4880 MB             ; 00:00:09                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4547 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4588 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4496 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:23     ; --                      ; --                  ; 00:00:16                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -109,11 +109,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

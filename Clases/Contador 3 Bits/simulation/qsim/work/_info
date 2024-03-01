@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ricma\Desktop\Contador\simulation\qsim
+vcontador
+Z1 IkRXWozEL:C10ihI?bS5@<3
+Z2 V14DDmS@04l]20A1BL;Emk0
+Z3 dC:\Users\ricma\Desktop\Contador\simulation\qsim
+Z4 w1709312502
+Z5 8contador.vo
+Z6 Fcontador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|contador.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 GB^TO>38b;0jB<OYEP98k3
+!s85 0
+Z11 !s108 1709312503.898000
+Z12 !s107 contador.vo|
+!s101 -O0
+vcontador_vlg_check_tst
+!i10b 1
+!s100 gNX0=?4JZKIMghSBegQIW0
+I_oVambHYT2^E?R9ZANEV22
+VjHMZI5ekojdnmi[82eMhJ0
+R3
+Z13 w1709312501
+Z14 8contador.vt
+Z15 Fcontador.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1709312504.056000
+Z17 !s107 contador.vt|
+Z18 !s90 -work|work|contador.vt|
+!s101 -O0
+R9
+vcontador_vlg_sample_tst
+!i10b 1
+!s100 WIOFDH_MSmI2ChXGhh1X11
+Ijl<`WaKZCn`Z<P@92>[533
+V?Izg:J]24o9L;o?KOFNlL3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+vcontador_vlg_vec_tst
+!i10b 1
+!s100 gN2L]bkBAZ?niI2Y6kWcl0
+IEQ1e84m;;dHFlmESdz9Ql2
+Vg7eM`4C4en1cUe:c[RGT<3
+R3
+R13
+R14
+R15
+L0 208
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
