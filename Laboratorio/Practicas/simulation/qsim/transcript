@@ -2,25 +2,24 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module compuerta_and
+# -- Compiling module flipflop_d
 # 
 # Top level modules:
-# 	compuerta_and
+# 	flipflop_d
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module compuerta_and_vlg_sample_tst
-# -- Compiling module compuerta_and_vlg_check_tst
-# -- Compiling module compuerta_and_vlg_vec_tst
+# -- Compiling module flipflop_d_vlg_sample_tst
+# -- Compiling module flipflop_d_vlg_check_tst
+# -- Compiling module flipflop_d_vlg_vec_tst
 # 
 # Top level modules:
-# 	compuerta_and_vlg_vec_tst
-# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.compuerta_and_vlg_vec_tst 
-# Loading work.compuerta_and_vlg_vec_tst
-# Loading work.compuerta_and
+# 	flipflop_d_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.flipflop_d_vlg_vec_tst 
+# Loading work.flipflop_d_vlg_vec_tst
+# Loading work.flipflop_d
 # Loading cycloneiii_ver.cycloneiii_io_obuf
 # Loading cycloneiii_ver.cycloneiii_io_ibuf
-# Loading cycloneiii_ver.cycloneiii_lcell_comb
-# Loading work.compuerta_and_vlg_sample_tst
-# Loading work.compuerta_and_vlg_check_tst
+# Loading work.flipflop_d_vlg_sample_tst
+# Loading work.flipflop_d_vlg_check_tst
 # Simulation passed !
-# ** Note: $finish    : practicas.vt(150)
-#    Time: 1 us  Iteration: 0  Instance: /compuerta_and_vlg_vec_tst/tb_out
+# ** Note: $finish    : practicas.vt(435)
+#    Time: 1 us  Iteration: 0  Instance: /flipflop_d_vlg_vec_tst/tb_out

@@ -1,6 +1,21 @@
-|compuerta_and
-e1 => s1.IN0
-e2 => s1.IN1
-s1 <= s1.DB_MAX_OUTPUT_PORT_TYPE
+|flipflop_d
+clk => ~NO_FANOUT~
+sQ[0] <= <GND>
+sQ[1] <= <GND>
+sQ[2] <= <GND>
+sQ[3] <= <GND>
+sQ[4] <= <GND>
+sQ[5] <= <GND>
+sQ[6] <= <GND>
+sQ[7] <= <GND>
+sQ[8] <= <GND>
+sQ[9] <= <GND>
+sQ[10] <= <GND>
+sQ[11] <= <GND>
+sQ[12] <= <GND>
+sQ[13] <= <GND>
+sQ[14] <= <GND>
+sQ[15] <= <GND>
+sQ[16] <= <VCC>
 
 
