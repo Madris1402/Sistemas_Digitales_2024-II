@@ -1,0 +1,9 @@
+|flipflop_T
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst3.IN0
+CLK => inst2.IN1
+T => inst7.IN0
+T => inst6.IN1
+Q2 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
