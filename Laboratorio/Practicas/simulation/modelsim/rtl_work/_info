@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Escritorio\Sistemas_Digitales_2024-II\Laboratorio\Practicas\simulation\modelsim
+vcontador
+!i10b 1
+!s100 [lJfiLcmQmB0k20<JHd9]0
+Ic^jQ1Hg8CL1^:KlR0`G=z2
+V;Lf1nNeE9k0LkR^H;_hKZ3
+Z1 dD:\Escritorio\Sistemas_Digitales_2024-II\Laboratorio\Practicas\simulation\modelsim
+w1710018929
+8D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas/contador.v
+FD:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas/contador.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1710018956.478000
+!s107 D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas/contador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas|D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas/contador.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+D:/Escritorio/Sistemas_Digitales_2024-II/Laboratorio/Practicas -O0

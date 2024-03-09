@@ -4,10 +4,10 @@ K3
 cModel Technology
 Z0 dD:\Escritorio\Practicas\simulation\qsim
 vcompuerta_and
-Z1 I`aiYY=F6j]H79XATd<nED0
+Z1 I_GRG[BGjAzQ?@JajOUGW_3
 Z2 VQ2FG09MFcCb70ILjl8@_12
 Z3 dD:\Escritorio\Sistemas_Digitales_2024-II\Laboratorio\Practicas\simulation\qsim
-Z4 w1708752362
+Z4 w1709781311
 Z5 8practicas.vo
 Z6 Fpracticas.vo
 L0 31
@@ -16,8 +16,8 @@ r1
 31
 Z8 !s90 -work|work|practicas.vo|
 Z9 o-work work -O0
-Z10 !s100 527afV8I=KCXfeW<H<j_i1
-Z11 !s108 1708752362.925000
+Z10 !s100 GaT=>34Em7AQk7AP]:g>a2
+Z11 !s108 1709781311.764000
 Z12 !s107 practicas.vo|
 !i10b 1
 !s85 0
@@ -27,14 +27,14 @@ Z13 !s100 0JBlXk@PFB=NDcR`K7Kh72
 Z14 IOd3YU7j@]S04fMNV`]17P3
 Z15 V@dK6I1^dNeGA;BQg0cAh=0
 R3
-Z16 w1708752361
+Z16 w1709781310
 Z17 8practicas.vt
 Z18 Fpracticas.vt
 L0 59
 R7
 r1
 31
-Z19 !s108 1708752363.052000
+Z19 !s108 1709781312.491000
 Z20 !s107 practicas.vt|
 Z21 !s90 -work|work|practicas.vt|
 R9
@@ -61,13 +61,14 @@ R9
 !s85 0
 !s101 -O0
 vcompuerta_and_vlg_vec_tst
-Z25 IajG0j;`7i[V^h2W]e9z7_3
-Z26 VkBQLZXgGaHIgoTTUPVkFa1
+Z25 !s100 <?^ha?f04Ta@TE:;gDBg`1
+Z26 IajG0j;`7i[V^h2W]e9z7_3
+Z27 VkBQLZXgGaHIgoTTUPVkFa1
 R3
 R16
 R17
 R18
-Z27 L0 154
+Z28 L0 154
 R7
 r1
 31
@@ -75,15 +76,14 @@ R19
 R20
 R21
 R9
-Z28 !s100 <?^ha?f04Ta@TE:;gDBg`1
 !i10b 1
 !s85 0
 !s101 -O0
-vflipflop_d
-Z29 I?l@K^onK]]MCIWOWRG[[P0
-Z30 VMaNl?bKjBEMG1T2oID<Y^1
+vcontador
+Z29 Ih02e4hRLI75Oc>dekzXY[2
+Z30 V;Lf1nNeE9k0LkR^H;_hKZ3
 R3
-Z31 w1709489875
+Z31 w1710020592
 R5
 R6
 L0 31
@@ -93,35 +93,35 @@ r1
 R8
 R9
 !i10b 1
-Z32 !s100 OVOSYV9[6jcFBd4bH?L7W1
+Z32 !s100 AAkli[XLC7?2_Y0:7cTA]2
 !s85 0
-Z33 !s108 1709489876.273000
+Z33 !s108 1710020592.699000
 R12
 !s101 -O0
-vflipflop_d_vlg_check_tst
+vcontador_vlg_check_tst
 !i10b 1
-Z34 !s100 MBbJD?USQ1l=oPm9?V4bB0
-Z35 IFBUGfjAiYBclknC6P?e<62
-Z36 VR@7M1Dna?zbAS544M:Y1h2
+Z34 !s100 ]l5iCNDMM75;A<M6k;R9Z0
+Z35 IcXH<iDcmcI][YjNNo`IPX2
+Z36 VJ6llD44@S3I5`mTPNo^nI1
 R3
-Z37 w1709489873
+Z37 w1710020591
 R17
 R18
-L0 59
+L0 57
 R7
 r1
 !s85 0
 31
-Z38 !s108 1709489876.427000
+Z38 !s108 1710020592.837000
 Z39 !s107 practicas.vt|
 R21
 !s101 -O0
 R9
-vflipflop_d_vlg_sample_tst
+vcontador_vlg_sample_tst
 !i10b 1
-Z40 !s100 k2eGQ_37;hgK4<RjATzUe0
-Z41 Iz4RWB6EBP5ZVg33fdBn8e0
-Z42 VZea><8PiLkY:IZELl5W@Y2
+Z40 !s100 l1MzUb:^Ak9cA>cG3mhaf3
+Z41 IiA00XOST]H0b5Y?RT<L]j2
+Z42 V<ZM0WL_^j1G:5LT>hf7<G0
 R3
 R37
 R17
@@ -136,16 +136,16 @@ R39
 R21
 !s101 -O0
 R9
-vflipflop_d_vlg_vec_tst
+vcontador_vlg_vec_tst
 !i10b 1
-Z43 !s100 67QE5[nT0Ihn55]QdK@`>0
-Z44 IC8NX;4`4Q@i80Rc>=GiXZ1
-Z45 V?S0JNk?z^XjI?[RF14P1L0
+Z43 !s100 c?HmDO;7[>l:ZBNnf86gP2
+Z44 I`iF[VLfjDgIckO:REciVI0
+Z45 Vg7eM`4C4en1cUe:c[RGT<3
 R3
 R37
 R17
 R18
-Z46 L0 441
+Z46 L0 439
 R7
 r1
 !s85 0
@@ -155,3 +155,79 @@ R39
 R21
 !s101 -O0
 R9
+vflipflop_d
+Z47 !s100 eeGVY4[eIPERJcH[cnDz_0
+Z48 IRD]ZT5db>[R3fP]H[UZ7?2
+Z49 VUUS2iHlED[ino_0;AbW@A0
+R3
+Z50 w1710007707
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z51 !s108 1710007707.913000
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vflipflop_d_vlg_check_tst
+Z52 !s100 LXDfn]0b;^MoL7fUQLAV11
+Z53 I;elCCi0cRiEAhNkd?6`mk2
+Z54 VR@7M1Dna?zbAS544M:Y1h2
+R3
+Z55 w1710007706
+R17
+R18
+L0 57
+R7
+r1
+31
+Z56 !s108 1710007709.350000
+R20
+R21
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vflipflop_d_vlg_sample_tst
+Z57 !s100 YQb3z1_A=NPDKfQ`2VLF:0
+Z58 INcm?XH@RN75@E?GY3d`752
+Z59 V41^lVH`NbNdnSI6]CY=OW3
+R3
+R55
+R17
+R18
+L0 29
+R7
+r1
+31
+R56
+R20
+R21
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vflipflop_d_vlg_vec_tst
+Z60 I_GT7=QDRL?FR95oZjn6@;3
+Z61 V?S0JNk?z^XjI?[RF14P1L0
+R3
+R55
+R17
+R18
+R46
+R7
+r1
+31
+R56
+R20
+R21
+R9
+Z62 !s100 DN<k_GCMzmBzACm5zXOWU0
+!i10b 1
+!s85 0
+!s101 -O0
