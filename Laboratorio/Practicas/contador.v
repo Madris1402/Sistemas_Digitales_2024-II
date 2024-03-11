@@ -3,7 +3,7 @@ module contador (clk, sQ);
 	input 	clk;
 	output	[16:0] sQ;
 	
-	reg		[16:0] Ff = 17'h00008;
+	reg		[16:0] Ff = 17'h00018;
 	assign 	sQ = Ff; 
 	
 	always @(negedge clk)
@@ -27,12 +27,10 @@ module contador (clk, sQ);
 				begin
 					Ff ={ 2'b00, Ff[13:3], 4'b1000};
 				end
-				
 				else
 				begin
 					Ff = {3'b001, 1'b0, Ff[13:5], Ff[3:0]};
 				end
 			end
-				
 		end
 endmodule
