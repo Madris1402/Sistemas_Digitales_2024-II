@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ricma\Desktop\Sistemas_Digitales_2024-II\Clases\Maquina de Estados\simulation\qsim
+vmaquina_estados
+Z1 !s100 X:b;3fi1dK1dI5L8ECbSB0
+Z2 I;F[WL<l>WFPG]l=7?EJ>^3
+Z3 VLSjOaSJ7[U]ogoAZB:mSW1
+Z4 dC:\Users\ricma\Desktop\Sistemas_Digitales_2024-II\Clases\Maquina de Estados\simulation\qsim
+Z5 w1710176475
+Z6 8maquina_estados.vo
+Z7 Fmaquina_estados.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|maquina_estados.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1710176476.757000
+Z12 !s107 maquina_estados.vo|
+!s101 -O0
+vmaquina_estados_vlg_check_tst
+!i10b 1
+Z13 !s100 8PP`gENYoVJ@>CfG][4lF0
+Z14 IOXF<dAEfgIak3XZcgdINB3
+Z15 VWkn?lVgj89PlGd:mJVNRz0
+R4
+Z16 w1710176474
+Z17 8maquina_estados.vt
+Z18 Fmaquina_estados.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1710176476.922000
+Z20 !s107 maquina_estados.vt|
+Z21 !s90 -work|work|maquina_estados.vt|
+!s101 -O0
+R10
+vmaquina_estados_vlg_sample_tst
+!i10b 1
+Z22 !s100 U0=;zmGKB3Oj9z;_X6Qb71
+Z23 I[JZL]^h31P]0WTB^dAlRg1
+Z24 V=UJP2SJicEb6DPEYAG7VY1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vmaquina_estados_vlg_vec_tst
+!i10b 1
+!s100 G7^=B0g:QHg8ZmDhUBQa70
+IeVgJ<<KWb^eQk^FZVY`^]0
+Z25 V2c6HI@j>lECf`J_68il7E2
+R4
+R16
+R17
+R18
+Z26 L0 208
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

@@ -1,0 +1,18 @@
+|maquina_estados
+reset => reg_fstate.state6.OUTPUTSELECT
+reset => reg_fstate.state4.OUTPUTSELECT
+reset => reg_fstate.state2.OUTPUTSELECT
+reset => reg_fstate.state3.OUTPUTSELECT
+reset => reg_fstate.state5.OUTPUTSELECT
+reset => reg_fstate.state8.OUTPUTSELECT
+reset => reg_fstate.state7.OUTPUTSELECT
+reset => reg_fstate.state1.OUTPUTSELECT
+reset => output1.OUTPUTSELECT
+reset => output2.OUTPUTSELECT
+reset => output3.OUTPUTSELECT
+clock => fstate~1.DATAIN
+output1 <= output1.DB_MAX_OUTPUT_PORT_TYPE
+output2 <= output2.DB_MAX_OUTPUT_PORT_TYPE
+output3 <= output3.DB_MAX_OUTPUT_PORT_TYPE
+
+
