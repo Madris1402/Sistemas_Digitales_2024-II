@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Escritorio\Sistemas_Digitales_2024-II\Clases\JK en Cascada\simulation\qsim
+vcascada_JK
+Z1 ICSG;;I53ZWVSczJ4;PDPP3
+Z2 V3VQmW<;Y?4P0DkCieflEe3
+Z3 dD:\Escritorio\Sistemas_Digitales_2024-II\Clases\JK en Cascada\simulation\qsim
+Z4 w1710310915
+Z5 8cascada_JK.vo
+Z6 Fcascada_JK.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|cascada_JK.vo|
+Z9 o-work work -O0
+Z10 ncascada_@j@k
+Z11 !s100 8>BYX<L8cL2dgI3X6GF`L3
+Z12 !s108 1710310916.072000
+Z13 !s107 cascada_JK.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vcascada_JK_vlg_check_tst
+Z14 Ihc]WC3ZOQY>`d8OanaL1f3
+Z15 VG3J^a]PgZaI]DQPhWYUFK0
+R3
+Z16 w1710310914
+Z17 8cascada_JK.vt
+Z18 Fcascada_JK.vt
+L0 59
+R7
+r1
+31
+Z19 !s108 1710310916.183000
+Z20 !s107 cascada_JK.vt|
+Z21 !s90 -work|work|cascada_JK.vt|
+R9
+Z22 ncascada_@j@k_vlg_check_tst
+Z23 !s100 _XFK>iA7h[cHXkba8laEl1
+!i10b 1
+!s85 0
+!s101 -O0
+vcascada_JK_vlg_sample_tst
+Z24 I`4:TgT`05Y4Moe[j:R5>O2
+Z25 VDdl?8R1Y8o=89ngIjozc?3
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+31
+R19
+R20
+R21
+R9
+Z26 ncascada_@j@k_vlg_sample_tst
+Z27 !s100 zo_<f?cNI]W8S6^J3c>Wb1
+!i10b 1
+!s85 0
+!s101 -O0
+vcascada_JK_vlg_vec_tst
+Z28 I6W?k[13f9Vg;K`8MLg4zi3
+Z29 VO4a4=@ZV@;PEE@@F1A:453
+R3
+R16
+R17
+R18
+Z30 L0 181
+R7
+r1
+31
+R19
+R20
+R21
+R9
+Z31 ncascada_@j@k_vlg_vec_tst
+Z32 !s100 1SS;JW];1RnijX`>6KKhk0
+!i10b 1
+!s85 0
+!s101 -O0
+vflipflopJK_negedge
+Z33 IRZHlo`klg:VH=bRTS>Q_61
+Z34 VdN]]cWWP2f<W8zm`ai=]h1
+R3
+Z35 w1710311675
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z36 nflipflop@j@k_negedge
+!i10b 1
+Z37 !s100 mkX^1Dzb]d4[NAc2UBeXW3
+!s85 0
+Z38 !s108 1710311676.000000
+R13
+!s101 -O0
+vflipflopJK_negedge_vlg_check_tst
+!i10b 1
+!s100 R[H00U?VfRfV85z;Xfi[h3
+In>G4a[?OiC>DaC0dLkDBR1
+VWIH3Enf3oeJ<Gn12C;1Si2
+R3
+Z39 w1710311674
+R17
+R18
+L0 59
+R7
+r1
+!s85 0
+31
+Z40 !s108 1710311676.416000
+Z41 !s107 cascada_JK.vt|
+R21
+!s101 -O0
+R9
+Z42 nflipflop@j@k_negedge_vlg_check_tst
+vflipflopJK_negedge_vlg_sample_tst
+!i10b 1
+Z43 !s100 C08Km?NPj5_i:h<MWC6_:2
+Z44 IHYIa:<Ol7D19YZEF:FoZA0
+Z45 V5h;]b]1Q?G8AS2W^f<24Z1
+R3
+R39
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R40
+R41
+R21
+!s101 -O0
+R9
+Z46 nflipflop@j@k_negedge_vlg_sample_tst
+vflipflopJK_negedge_vlg_vec_tst
+!i10b 1
+!s100 Gz<S=ecfC@SLW@2_BAZUG0
+IYC5;=ciZdDHc[XGo`]`PU1
+Z47 V5PJcjX?<P4]l^S?>cl?im1
+R3
+R39
+R17
+R18
+L0 316
+R7
+r1
+!s85 0
+31
+R40
+R41
+R21
+!s101 -O0
+R9
+Z48 nflipflop@j@k_negedge_vlg_vec_tst
