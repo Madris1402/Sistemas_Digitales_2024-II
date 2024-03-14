@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Escritorio\Sistemas_Digitales_2024-II\Clases\Contador de 4 Bits\simulation\qsim
+vcontador_cuatro_bits
+Z1 !s100 Y]Vkj6zaHaHP;ldaJS_B70
+Z2 I4m@@gG`n2LBJF_I;::ZbM1
+Z3 V9_Ze;Vd1XnjP8]96TKljU3
+Z4 dD:\Escritorio\Sistemas_Digitales_2024-II\Clases\Contador de 4 Bits\simulation\qsim
+Z5 w1710374385
+Z6 8contador_cuatro_bits.vo
+Z7 Fcontador_cuatro_bits.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|contador_cuatro_bits.vo|
+Z10 o-work work -O0
+Z11 !s108 1710374385.904000
+Z12 !s107 contador_cuatro_bits.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontador_cuatro_bits_vlg_check_tst
+Z13 !s100 zPSN^gTcBP>nX9=7C2Bb_2
+Z14 I5LW3GVifUXnRY2I33ZQ`=2
+Z15 VUFWeOlSz7JRnLXE8k`PF83
+R4
+Z16 w1710374384
+Z17 8contador_cuatro_bits.vt
+Z18 Fcontador_cuatro_bits.vt
+L0 59
+R8
+r1
+31
+Z19 !s108 1710374386.186000
+Z20 !s107 contador_cuatro_bits.vt|
+Z21 !s90 -work|work|contador_cuatro_bits.vt|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vcontador_cuatro_bits_vlg_sample_tst
+Z22 !s100 j8>Wld<EjRD:>AK>08aCa1
+Z23 I[7DI7Ma^7Ok2]P9268]C:1
+Z24 VPgEmG4`ejSm[fnnoa0TPV3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vcontador_cuatro_bits_vlg_vec_tst
+Z25 !s100 Q84af5k]CC7=gMg3[2BS92
+Z26 IUD:48hbZY3MMXW<D1k00:1
+Z27 V]H;=[AMTIV>BZLoj5XNn:3
+R4
+R16
+R17
+R18
+Z28 L0 235
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vSM2
+Z29 !s100 G:8;3;>;Z?1IH9XL=>?Yf3
+Z30 IHmEU1MG7CG]_:Wo0hhVi[2
+Z31 V@XlDBIiHkk@zbhTcLVEE60
+R4
+Z32 w1710376671
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+Z33 n@s@m2
+!i10b 1
+!s85 0
+Z34 !s108 1710376672.168000
+R12
+!s101 -O0
+vSM2_vlg_check_tst
+!i10b 1
+Z35 !s100 eninGFV[hogjUhoWJ@BQ]1
+Z36 I34;24Ld0nI9>oX?lL7o4W3
+Z37 V_5E?zN5O7X6iX1a7]U91K2
+R4
+Z38 w1710376670
+R17
+R18
+L0 61
+R8
+r1
+!s85 0
+31
+Z39 !s108 1710376672.306000
+Z40 !s107 contador_cuatro_bits.vt|
+R21
+!s101 -O0
+R10
+Z41 n@s@m2_vlg_check_tst
+vSM2_vlg_sample_tst
+!i10b 1
+Z42 !s100 2LggUc7Jz;nGW300ClDMR0
+Z43 IdbDNnf`3b;6HTmQUK27M;3
+Z44 V=TbR5[7zb<aU7UK06Yi^G2
+R4
+R38
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R39
+R40
+R21
+!s101 -O0
+R10
+Z45 n@s@m2_vlg_sample_tst
+vSM2_vlg_vec_tst
+!i10b 1
+Z46 !s100 Z>BkFjL00XzQ^POlIMM;S2
+Z47 I7V?J<ba6oi78g:`e0Xi`T2
+Z48 V]B]J05Z00_eFPbW>0S^Ac3
+R4
+R38
+R17
+R18
+Z49 L0 183
+R8
+r1
+!s85 0
+31
+R39
+R40
+R21
+!s101 -O0
+R10
+Z50 n@s@m2_vlg_vec_tst
