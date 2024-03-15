@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone III"
 set_global_assignment -name DEVICE EP3C16F484C6
-set_global_assignment -name TOP_LEVEL_ENTITY SM2
+set_global_assignment -name TOP_LEVEL_ENTITY contador_cuatro_bits
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:26:45  MARCH 13, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -56,10 +56,8 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_s
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Contador de 4 Bits/Waveform.vwf"
-set_global_assignment -name VERILOG_FILE contador_cuatro_bits.v
 set_global_assignment -name SMF_FILE contador_cuatro_bits.smf
+set_global_assignment -name VERILOG_FILE contador_cuatro_bits.v
 set_global_assignment -name VECTOR_WAVEFORM_FILE contador_cuatro_bits.vwf
-set_global_assignment -name SMF_FILE SM2.smf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Contador de 4 Bits/contador_cuatro_bits.vwf"

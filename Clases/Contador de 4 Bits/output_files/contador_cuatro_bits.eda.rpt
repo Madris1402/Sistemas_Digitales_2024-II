@@ -1,5 +1,5 @@
 EDA Netlist Writer report for contador_cuatro_bits
-Wed Mar 13 18:37:51 2024
+Fri Mar 15 00:32:57 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Mar 13 18:37:51 2024 ;
+; EDA Netlist Writer Status ; Successful - Fri Mar 15 00:32:57 2024 ;
 ; Revision Name             ; contador_cuatro_bits                  ;
-; Top-level Entity Name     ; SM2                                   ;
+; Top-level Entity Name     ; contador_cuatro_bits                  ;
 ; Family                    ; Cyclone III                           ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Mar 13 18:37:50 2024
+    Info: Processing started: Fri Mar 15 00:32:57 2024
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog contador_cuatro_bits -c contador_cuatro_bits
 Info (204019): Generated file contador_cuatro_bits.vo in folder "D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Contador de 4 Bits/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4509 megabytes
-    Info: Processing ended: Wed Mar 13 18:37:51 2024
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Fri Mar 15 00:32:57 2024
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 

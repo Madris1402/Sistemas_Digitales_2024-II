@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Wed Mar 13 18:36:01 2024
+Analysis & Synthesis Status : Successful - Fri Mar 15 00:30:53 2024
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : contador_cuatro_bits
-Top-level Entity Name : SM2
+Top-level Entity Name : contador_cuatro_bits
 Family : Cyclone III
-Total logic elements : 4
-    Total combinational functions : 4
-    Dedicated logic registers : 2
-Total registers : 2
-Total pins : 5
+Total logic elements : 26
+    Total combinational functions : 26
+    Dedicated logic registers : 16
+Total registers : 16
+Total pins : 7
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0
