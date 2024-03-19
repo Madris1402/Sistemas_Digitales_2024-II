@@ -1,5 +1,5 @@
 Flow report for cascada_JK
-Wed Mar 13 00:34:35 2024
+Mon Mar 18 19:23:41 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,18 +40,18 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Mar 13 00:34:35 2024           ;
+; Flow Status                        ; Successful - Mon Mar 18 19:23:41 2024           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; cascada_JK                                      ;
-; Top-level Entity Name              ; flipflopJK_negedge                              ;
+; Top-level Entity Name              ; flipflopJK_negedge1                             ;
 ; Family                             ; Cyclone III                                     ;
 ; Device                             ; EP3C16F484C6                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 3 / 15,408 ( < 1 % )                            ;
-;     Total combinational functions  ; 3 / 15,408 ( < 1 % )                            ;
-;     Dedicated logic registers      ; 1 / 15,408 ( < 1 % )                            ;
-; Total registers                    ; 1                                               ;
-; Total pins                         ; 9 / 347 ( 3 % )                                 ;
+; Total logic elements               ; 0 / 15,408 ( 0 % )                              ;
+;     Total combinational functions  ; 0 / 15,408 ( 0 % )                              ;
+;     Dedicated logic registers      ; 0 / 15,408 ( 0 % )                              ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 4 / 347 ( 1 % )                                 ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 516,096 ( 0 % )                             ;
 ; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                                 ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/13/2024 00:32:25 ;
+; Start date & time ; 03/18/2024 19:22:28 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; cascada_JK          ;
 +-------------------+---------------------+
@@ -72,22 +72,22 @@ applicable agreement for further details.
 
 +-----------------------------------------------------------------------------------------------------------------------------+
 ; Flow Non-Default Global Settings                                                                                            ;
-+-------------------------------------+---------------------------------+---------------+--------------------+----------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name        ; Section Id     ;
-+-------------------------------------+---------------------------------+---------------+--------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 237901792353627.171031154507124 ; --            ; --                 ; --             ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --            ; --                 ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --                 ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --                 ; --             ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --                 ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --                 ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --                 ; --             ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; flipflopJK_negedge ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; flipflopJK_negedge ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; flipflopJK_negedge ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --                 ; --             ;
-; TOP_LEVEL_ENTITY                    ; flipflopJK_negedge              ; cascada_JK    ; --                 ; --             ;
-+-------------------------------------+---------------------------------+---------------+--------------------+----------------+
++-------------------------------------+--------------------------------+---------------+---------------------+----------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name         ; Section Id     ;
++-------------------------------------+--------------------------------+---------------+---------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 79349034454666.171081134815644 ; --            ; --                  ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                             ; --            ; --                  ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --            ; --                  ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)      ; <None>        ; --                  ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --                  ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --                  ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                           ; --            ; --                  ; --             ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; flipflopJK_negedge1 ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; flipflopJK_negedge1 ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; flipflopJK_negedge1 ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --                  ; --             ;
+; TOP_LEVEL_ENTITY                    ; flipflopJK_negedge1            ; cascada_JK    ; --                  ; --             ;
++-------------------------------------+--------------------------------+---------------+---------------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -95,14 +95,14 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4577 MB             ; 00:00:00                           ;
-; Fitter                    ; 00:00:04     ; 1.0                     ; 4885 MB             ; 00:00:01                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4550 MB             ; 00:00:00                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4589 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4496 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4504 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4504 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:01                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4576 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:09     ; 1.0                     ; 4826 MB             ; 00:00:08                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4543 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4588 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4496 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4503 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4503 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:20     ; --                      ; --                  ; 00:00:17                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -111,13 +111,13 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; Madri-PC1        ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Madri-Pad        ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -129,7 +129,7 @@ quartus_fit --read_settings_files=off --write_settings_files=off cascada_JK -c c
 quartus_asm --read_settings_files=off --write_settings_files=off cascada_JK -c cascada_JK
 quartus_sta cascada_JK -c cascada_JK
 quartus_eda --read_settings_files=off --write_settings_files=off cascada_JK -c cascada_JK
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog cascada_JK -c cascada_JK --vector_source="D:/Escritorio/Sistemas_Digitales_2024-II/Clases/JK en Cascada/flipflopJK_negedge.vwf" --testbench_file=./simulation/qsim/cascada_JK.vt
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog cascada_JK -c cascada_JK --vector_source="C:/Users/ricma/Desktop/Sistemas_Digitales_2024-II/Clases/JK en Cascada/flipflopJK_negedge1.vwf" --testbench_file=./simulation/qsim/cascada_JK.vt
 quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog cascada_JK -c cascada_JK
 
 

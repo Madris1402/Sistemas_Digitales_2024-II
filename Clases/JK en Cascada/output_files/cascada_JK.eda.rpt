@@ -1,5 +1,5 @@
 EDA Netlist Writer report for cascada_JK
-Wed Mar 13 00:34:35 2024
+Mon Mar 18 19:23:41 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Mar 13 00:34:35 2024 ;
+; EDA Netlist Writer Status ; Successful - Mon Mar 18 19:23:41 2024 ;
 ; Revision Name             ; cascada_JK                            ;
-; Top-level Entity Name     ; flipflopJK_negedge                    ;
+; Top-level Entity Name     ; flipflopJK_negedge1                   ;
 ; Family                    ; Cyclone III                           ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -65,13 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+-------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                      ;
-+-------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                 ;
-+-------------------------------------------------------------------------------------------------+
-; D:/Escritorio/Sistemas_Digitales_2024-II/Clases/JK en Cascada/simulation/modelsim/cascada_JK.vo ;
-+-------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                               ;
++----------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                          ;
++----------------------------------------------------------------------------------------------------------+
+; C:/Users/ricma/Desktop/Sistemas_Digitales_2024-II/Clases/JK en Cascada/simulation/modelsim/cascada_JK.vo ;
++----------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Mar 13 00:34:34 2024
+    Info: Processing started: Mon Mar 18 19:23:39 2024
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog cascada_JK -c cascada_JK
-Info (204019): Generated file cascada_JK.vo in folder "D:/Escritorio/Sistemas_Digitales_2024-II/Clases/JK en Cascada/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file cascada_JK.vo in folder "C:/Users/ricma/Desktop/Sistemas_Digitales_2024-II/Clases/JK en Cascada/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4520 megabytes
-    Info: Processing ended: Wed Mar 13 00:34:35 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 4503 megabytes
+    Info: Processing ended: Mon Mar 18 19:23:41 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
