@@ -18,24 +18,24 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "03/11/2024 00:27:03"
+// Generated on "04/16/2024 21:04:24"
                                                                         
-// Verilog Self-Checking Test Bench (with test vectors) for design :    contador
+// Verilog Self-Checking Test Bench (with test vectors) for design :    seqdiv
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module contador_vlg_sample_tst(
-	clk,
+module seqdiv_vlg_sample_tst(
+	ck,
 	sampler_tx
 );
-input  clk;
+input  ck;
 output sampler_tx;
 
 reg sample;
 time current_time;
-always @(clk)
+always @(ck)
                                                                                 
 begin                                                 
  if ($realtime > 0)                                   
@@ -54,20 +54,20 @@ end
 assign sampler_tx = sample;
 endmodule
 
-module contador_vlg_check_tst (
+module seqdiv_vlg_check_tst (
 	sQ,
 	sampler_rx
 );
-input [16:0] sQ;
+input [9:0] sQ;
 input sampler_rx;
 
-reg [16:0] sQ_expected;
+reg [9:0] sQ_expected;
 
-reg [16:0] sQ_prev;
+reg [9:0] sQ_prev;
 
-reg [16:0] sQ_expected_prev;
+reg [9:0] sQ_expected_prev;
 
-reg [16:0] last_sQ_exp;
+reg [9:0] last_sQ_exp;
 
 reg trigger;
 
@@ -100,41 +100,6 @@ begin
 end
 
 
-// expected sQ[ 16 ]
-initial
-begin
-	sQ_expected[16] = 1'bX;
-end 
-// expected sQ[ 15 ]
-initial
-begin
-	sQ_expected[15] = 1'bX;
-end 
-// expected sQ[ 14 ]
-initial
-begin
-	sQ_expected[14] = 1'bX;
-end 
-// expected sQ[ 13 ]
-initial
-begin
-	sQ_expected[13] = 1'bX;
-end 
-// expected sQ[ 12 ]
-initial
-begin
-	sQ_expected[12] = 1'bX;
-end 
-// expected sQ[ 11 ]
-initial
-begin
-	sQ_expected[11] = 1'bX;
-end 
-// expected sQ[ 10 ]
-initial
-begin
-	sQ_expected[10] = 1'bX;
-end 
 // expected sQ[ 9 ]
 initial
 begin
@@ -329,97 +294,6 @@ begin
 		on_first_change[1] = 1'b0;
 		last_sQ_exp[9] = sQ_expected_prev[9];
 	end
-	if (
-		( sQ_expected_prev[10] !== 1'bx ) && ( sQ_prev[10] !== sQ_expected_prev[10] )
-		&& ((sQ_expected_prev[10] !== last_sQ_exp[10]) ||
-			on_first_change[1])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port sQ[10] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", sQ_expected_prev);
-		$display ("     Real value = %b", sQ_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[1] = 1'b0;
-		last_sQ_exp[10] = sQ_expected_prev[10];
-	end
-	if (
-		( sQ_expected_prev[11] !== 1'bx ) && ( sQ_prev[11] !== sQ_expected_prev[11] )
-		&& ((sQ_expected_prev[11] !== last_sQ_exp[11]) ||
-			on_first_change[1])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port sQ[11] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", sQ_expected_prev);
-		$display ("     Real value = %b", sQ_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[1] = 1'b0;
-		last_sQ_exp[11] = sQ_expected_prev[11];
-	end
-	if (
-		( sQ_expected_prev[12] !== 1'bx ) && ( sQ_prev[12] !== sQ_expected_prev[12] )
-		&& ((sQ_expected_prev[12] !== last_sQ_exp[12]) ||
-			on_first_change[1])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port sQ[12] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", sQ_expected_prev);
-		$display ("     Real value = %b", sQ_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[1] = 1'b0;
-		last_sQ_exp[12] = sQ_expected_prev[12];
-	end
-	if (
-		( sQ_expected_prev[13] !== 1'bx ) && ( sQ_prev[13] !== sQ_expected_prev[13] )
-		&& ((sQ_expected_prev[13] !== last_sQ_exp[13]) ||
-			on_first_change[1])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port sQ[13] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", sQ_expected_prev);
-		$display ("     Real value = %b", sQ_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[1] = 1'b0;
-		last_sQ_exp[13] = sQ_expected_prev[13];
-	end
-	if (
-		( sQ_expected_prev[14] !== 1'bx ) && ( sQ_prev[14] !== sQ_expected_prev[14] )
-		&& ((sQ_expected_prev[14] !== last_sQ_exp[14]) ||
-			on_first_change[1])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port sQ[14] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", sQ_expected_prev);
-		$display ("     Real value = %b", sQ_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[1] = 1'b0;
-		last_sQ_exp[14] = sQ_expected_prev[14];
-	end
-	if (
-		( sQ_expected_prev[15] !== 1'bx ) && ( sQ_prev[15] !== sQ_expected_prev[15] )
-		&& ((sQ_expected_prev[15] !== last_sQ_exp[15]) ||
-			on_first_change[1])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port sQ[15] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", sQ_expected_prev);
-		$display ("     Real value = %b", sQ_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[1] = 1'b0;
-		last_sQ_exp[15] = sQ_expected_prev[15];
-	end
-	if (
-		( sQ_expected_prev[16] !== 1'bx ) && ( sQ_prev[16] !== sQ_expected_prev[16] )
-		&& ((sQ_expected_prev[16] !== last_sQ_exp[16]) ||
-			on_first_change[1])
-	)
-	begin
-		$display ("ERROR! Vector Mismatch for output port sQ[16] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", sQ_expected_prev);
-		$display ("     Real value = %b", sQ_prev);
-		nummismatches = nummismatches + 1;
-		on_first_change[1] = 1'b0;
-		last_sQ_exp[16] = sQ_expected_prev[16];
-	end
 
 	trigger <= ~trigger;
 end
@@ -436,36 +310,36 @@ $finish;
 end 
 endmodule
 
-module contador_vlg_vec_tst();
+module seqdiv_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg clk;
+reg ck;
 // wires                                               
-wire [16:0] sQ;
+wire [9:0] sQ;
 
 wire sampler;                             
 
 // assign statements (if any)                          
-contador i1 (
+seqdiv i1 (
 // port map - connection between master ports and signals/registers   
-	.clk(clk),
+	.ck(ck),
 	.sQ(sQ)
 );
 
-// clk
+// ck
 always
 begin
-	clk = 1'b0;
-	clk = #500 1'b1;
+	ck = 1'b0;
+	ck = #500 1'b1;
 	#500;
 end 
 
-contador_vlg_sample_tst tb_sample (
-	.clk(clk),
+seqdiv_vlg_sample_tst tb_sample (
+	.ck(ck),
 	.sampler_tx(sampler)
 );
 
-contador_vlg_check_tst tb_out(
+seqdiv_vlg_check_tst tb_out(
 	.sQ(sQ),
 	.sampler_rx(sampler)
 );
