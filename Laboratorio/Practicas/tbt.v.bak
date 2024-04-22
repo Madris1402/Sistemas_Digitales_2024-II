@@ -1,0 +1,33 @@
+module tbt (ck, f, ckd);
+// Tasa de Baulios Transmisión
+
+	input 	ck;
+	input 	F;
+	output 	ckd;
+	
+	reg	[21:0]	rc;
+	reg 				rckd;
+	reg 				rf;
+	
+	assign 	ckd = rckd;
+	
+	always @(posedge ck)
+	begin
+		rf = f
+	end
+	
+	always @(negedge ck)
+	begin
+	
+		if (rc == 22'h000000)
+		begin
+		//	rc = 22'h0000D9 - 1; // Divisor Tarjeta
+			rc = 22'h000005 -1; // Divisor Simulador
+			rckd = !rckd;
+		end
+		else
+		begin
+			rc = rc - 1;
+		end
+	end
+endmodule

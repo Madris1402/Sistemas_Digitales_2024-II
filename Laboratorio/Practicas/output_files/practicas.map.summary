@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Tue Apr 16 21:04:08 2024
+Analysis & Synthesis Status : Successful - Sun Apr 21 20:20:51 2024
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : practicas
-Top-level Entity Name : seqdiv
+Top-level Entity Name : tbt
 Family : Cyclone III
-Total logic elements : 68
-    Total combinational functions : 68
-    Dedicated logic registers : 35
-Total registers : 35
-Total pins : 11
+Total logic elements : 32
+    Total combinational functions : 32
+    Dedicated logic registers : 23
+Total registers : 23
+Total pins : 3
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

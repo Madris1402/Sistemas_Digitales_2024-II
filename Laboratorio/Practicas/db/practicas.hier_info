@@ -1,18 +1,4 @@
-|seqdiv
-ck => ck.IN1
-sQ[0] <= contador:sq1.sQ
-sQ[1] <= contador:sq1.sQ
-sQ[2] <= contador:sq1.sQ
-sQ[3] <= contador:sq1.sQ
-sQ[4] <= contador:sq1.sQ
-sQ[5] <= contador:sq1.sQ
-sQ[6] <= contador:sq1.sQ
-sQ[7] <= contador:sq1.sQ
-sQ[8] <= contador:sq1.sQ
-sQ[9] <= contador:sq1.sQ
-
-
-|seqdiv|divisor:dv1
+|tbt
 ck => rckd.CLK
 ck => rc[0].CLK
 ck => rc[1].CLK
@@ -36,43 +22,29 @@ ck => rc[18].CLK
 ck => rc[19].CLK
 ck => rc[20].CLK
 ck => rc[21].CLK
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rc.OUTPUTSELECT
+f => rckd.OUTPUTSELECT
 ckd <= rckd.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|seqdiv|contador:sq1
-clk => Ff[0].CLK
-clk => Ff[1].CLK
-clk => Ff[2].CLK
-clk => Ff[3].CLK
-clk => Ff[4].CLK
-clk => Ff[5].CLK
-clk => Ff[6].CLK
-clk => Ff[7].CLK
-clk => Ff[8].CLK
-clk => Ff[9].CLK
-clk => Ff[10].CLK
-clk => Ff[11].CLK
-clk => Ff[12].CLK
-clk => Ff[13].CLK
-clk => Ff[14].CLK
-clk => Ff[15].CLK
-clk => Ff[16].CLK
-sQ[0] <= Ff[0].DB_MAX_OUTPUT_PORT_TYPE
-sQ[1] <= Ff[1].DB_MAX_OUTPUT_PORT_TYPE
-sQ[2] <= Ff[2].DB_MAX_OUTPUT_PORT_TYPE
-sQ[3] <= Ff[3].DB_MAX_OUTPUT_PORT_TYPE
-sQ[4] <= Ff[4].DB_MAX_OUTPUT_PORT_TYPE
-sQ[5] <= Ff[5].DB_MAX_OUTPUT_PORT_TYPE
-sQ[6] <= Ff[6].DB_MAX_OUTPUT_PORT_TYPE
-sQ[7] <= Ff[7].DB_MAX_OUTPUT_PORT_TYPE
-sQ[8] <= Ff[8].DB_MAX_OUTPUT_PORT_TYPE
-sQ[9] <= Ff[9].DB_MAX_OUTPUT_PORT_TYPE
-sQ[10] <= Ff[10].DB_MAX_OUTPUT_PORT_TYPE
-sQ[11] <= Ff[11].DB_MAX_OUTPUT_PORT_TYPE
-sQ[12] <= Ff[12].DB_MAX_OUTPUT_PORT_TYPE
-sQ[13] <= Ff[13].DB_MAX_OUTPUT_PORT_TYPE
-sQ[14] <= Ff[14].DB_MAX_OUTPUT_PORT_TYPE
-sQ[15] <= Ff[15].DB_MAX_OUTPUT_PORT_TYPE
-sQ[16] <= Ff[16].DB_MAX_OUTPUT_PORT_TYPE
 
 

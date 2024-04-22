@@ -13,8 +13,8 @@ module divisor (ck, ckd);
 	
 		if (rc == 22'h000000)
 		begin
-			rc = 22'h265a0 - 1;
-			//rc = 22'h000005 - 1;
+		// rc = 22'h265A0 - 1;
+			rc = 22'h000005 -1;
 			rckd = !rckd;
 		end
 		else
