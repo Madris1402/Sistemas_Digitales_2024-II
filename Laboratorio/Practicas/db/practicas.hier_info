@@ -1,4 +1,20 @@
-|tbt
+|prot
+ck => ck.IN1
+cmd[0] => WideOr3.IN0
+cmd[0] => Equal0.IN1
+cmd[1] => WideOr3.IN1
+cmd[1] => Equal0.IN3
+cmd[2] => WideOr3.IN2
+cmd[2] => Equal0.IN2
+cmd[3] => WideOr3.IN3
+cmd[3] => Equal0.IN0
+MF <= wf.DB_MAX_OUTPUT_PORT_TYPE
+Mtbt <= tbt:igtb1.ckd
+Tx <= rtx[0].DB_MAX_OUTPUT_PORT_TYPE
+Rx => ~NO_FANOUT~
+
+
+|prot|tbt:igtb1
 ck => rckd.CLK
 ck => rc[0].CLK
 ck => rc[1].CLK

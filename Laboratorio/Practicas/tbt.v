@@ -35,7 +35,7 @@ always @(posedge ck)
 		end
 		else
 		begin
-			rc = 22'h00000;
+			rc = 22'h000000;
 			rckd = 1'b1;
 		end
 	end
