@@ -1,0 +1,7 @@
+module rx 	(ck, rc, MF, Mckd, Mrc);
+
+	input 			ck;
+	input 			rx;
+	output 			MF;
+	output  			Mckd;
+	output [9:0]	Mcr;

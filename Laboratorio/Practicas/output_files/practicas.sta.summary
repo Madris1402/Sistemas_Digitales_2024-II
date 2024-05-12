@@ -3,75 +3,111 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'ck'
-Slack : -3.092
-TNS   : -63.412
+Slack : -2.547
+TNS   : -51.290
 
-Type  : Slow 1200mV 85C Model Setup 'tbt:igtb1|rckd'
-Slack : -1.740
-TNS   : -28.708
+Type  : Slow 1200mV 85C Model Setup 'tbt:id1|rckd'
+Slack : -0.065
+TNS   : -0.404
 
-Type  : Slow 1200mV 85C Model Hold 'ck'
-Slack : 0.181
+Type  : Slow 1200mV 85C Model Setup 'rstb[1]'
+Slack : 0.199
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'tbt:igtb1|rckd'
-Slack : 0.358
+Type  : Slow 1200mV 85C Model Hold 'ck'
+Slack : -0.295
+TNS   : -0.295
+
+Type  : Slow 1200mV 85C Model Hold 'rstb[1]'
+Slack : 0.091
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tbt:id1|rckd'
+Slack : 0.361
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ck'
 Slack : -3.000
-TNS   : -26.000
+TNS   : -30.000
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tbt:igtb1|rckd'
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tbt:id1|rckd'
 Slack : -1.000
-TNS   : -20.000
+TNS   : -10.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'rstb[1]'
+Slack : -1.000
+TNS   : -8.000
 
 Type  : Slow 1200mV 0C Model Setup 'ck'
-Slack : -2.681
-TNS   : -54.527
+Slack : -2.160
+TNS   : -42.425
 
-Type  : Slow 1200mV 0C Model Setup 'tbt:igtb1|rckd'
-Slack : -1.443
-TNS   : -23.598
-
-Type  : Slow 1200mV 0C Model Hold 'ck'
-Slack : 0.111
+Type  : Slow 1200mV 0C Model Setup 'tbt:id1|rckd'
+Slack : 0.052
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'tbt:igtb1|rckd'
-Slack : 0.312
+Type  : Slow 1200mV 0C Model Setup 'rstb[1]'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ck'
+Slack : -0.281
+TNS   : -0.281
+
+Type  : Slow 1200mV 0C Model Hold 'rstb[1]'
+Slack : 0.086
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tbt:id1|rckd'
+Slack : 0.321
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ck'
 Slack : -3.000
-TNS   : -26.000
+TNS   : -30.000
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tbt:igtb1|rckd'
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tbt:id1|rckd'
 Slack : -1.000
-TNS   : -20.000
+TNS   : -10.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'rstb[1]'
+Slack : -1.000
+TNS   : -8.000
 
 Type  : Fast 1200mV 0C Model Setup 'ck'
-Slack : -1.309
-TNS   : -25.784
+Slack : -1.037
+TNS   : -18.021
 
-Type  : Fast 1200mV 0C Model Setup 'tbt:igtb1|rckd'
-Slack : -0.534
-TNS   : -7.240
+Type  : Fast 1200mV 0C Model Setup 'tbt:id1|rckd'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'rstb[1]'
+Slack : 0.542
+TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'ck'
-Slack : -0.145
-TNS   : -0.145
+Slack : -0.179
+TNS   : -0.179
 
-Type  : Fast 1200mV 0C Model Hold 'tbt:igtb1|rckd'
-Slack : 0.185
+Type  : Fast 1200mV 0C Model Hold 'rstb[1]'
+Slack : 0.033
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tbt:id1|rckd'
+Slack : 0.194
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ck'
 Slack : -3.000
-TNS   : -28.433
+TNS   : -32.371
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tbt:igtb1|rckd'
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tbt:id1|rckd'
 Slack : -1.000
-TNS   : -20.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rstb[1]'
+Slack : -1.000
+TNS   : -8.000
 
 ------------------------------------------------------------

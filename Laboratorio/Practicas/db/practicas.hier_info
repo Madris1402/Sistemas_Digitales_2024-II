@@ -1,20 +1,39 @@
-|prot
+|rx
 ck => ck.IN1
-cmd[0] => WideOr3.IN0
-cmd[0] => Equal0.IN1
-cmd[1] => WideOr3.IN1
-cmd[1] => Equal0.IN3
-cmd[2] => WideOr3.IN2
-cmd[2] => Equal0.IN2
-cmd[3] => WideOr3.IN3
-cmd[3] => Equal0.IN0
+rx => comb.IN1
+rx => rc[9].DATAIN
+rx => _.IN1
 MF <= wf.DB_MAX_OUTPUT_PORT_TYPE
-Mtbt <= tbt:igtb1.ckd
-Tx <= rtx[0].DB_MAX_OUTPUT_PORT_TYPE
-Rx => ~NO_FANOUT~
+Mckd <= tbt:id1.ckd
+Mrc[0] <= rc[0].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[1] <= rc[1].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[2] <= rc[2].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[3] <= rc[3].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[4] <= rc[4].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[5] <= rc[5].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[6] <= rc[6].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[7] <= rc[7].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[8] <= rc[8].DB_MAX_OUTPUT_PORT_TYPE
+Mrc[9] <= rc[9].DB_MAX_OUTPUT_PORT_TYPE
+dat[0] <= rdat[0].DB_MAX_OUTPUT_PORT_TYPE
+dat[1] <= rdat[1].DB_MAX_OUTPUT_PORT_TYPE
+dat[2] <= rdat[2].DB_MAX_OUTPUT_PORT_TYPE
+dat[3] <= rdat[3].DB_MAX_OUTPUT_PORT_TYPE
+dat[4] <= rdat[4].DB_MAX_OUTPUT_PORT_TYPE
+dat[5] <= rdat[5].DB_MAX_OUTPUT_PORT_TYPE
+dat[6] <= rdat[6].DB_MAX_OUTPUT_PORT_TYPE
+dat[7] <= rdat[7].DB_MAX_OUTPUT_PORT_TYPE
+stb <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|prot|tbt:igtb1
+|rx|lsr:il1
+es => SQN.IN1
+er => SQ.IN0
+SQN <= SQN.DB_MAX_OUTPUT_PORT_TYPE
+SQ <= SQ.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rx|tbt:id1
 ck => rckd.CLK
 ck => rc[0].CLK
 ck => rc[1].CLK
@@ -38,6 +57,9 @@ ck => rc[18].CLK
 ck => rc[19].CLK
 ck => rc[20].CLK
 ck => rc[21].CLK
+sT => rc.DATAB
+sT => rc.DATAB
+sT => rc.DATAB
 f => rc.OUTPUTSELECT
 f => rc.OUTPUTSELECT
 f => rc.OUTPUTSELECT

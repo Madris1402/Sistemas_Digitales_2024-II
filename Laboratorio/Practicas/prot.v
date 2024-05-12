@@ -17,10 +17,12 @@ module prot (ck, cmd, MF, Mtbt, Tx, Rx);
 	assign 		Mtbt = wckd;
 	wire 				wf;
 	
-	tbt igtb1( .ck(ck), .f(wf), .ckd(wckd) );
+	tbt igtb1( .ck(ck), .sT(1'b0), .f(wf), .ckd(wckd) );
 	
 	assign 			wf = ( (|rbuff) || (|rtx[9:1]) || (|rcnt) || (|cmd) || (|rcByt) );
 	assign 			MF = wf;
+	
+	wire 				wrbuff = |rbuff;
 	
 	always @(negedge wckd)
 	begin
@@ -28,11 +30,15 @@ module prot (ck, cmd, MF, Mtbt, Tx, Rx);
 		if (cmd)
 		begin
 		
-			if (cmd == 4'h9)
+			if (!wrbuff)
 			begin
 			
-				rbuff = 48'hAA0D00000000;
-				rcByt = 3'h6;
+				if (cmd == 4'h9)
+				begin
+				
+					rbuff = 48'hAA0D00000000;
+					rcByt = 3'h6;
+				end
 				
 			end
 			
