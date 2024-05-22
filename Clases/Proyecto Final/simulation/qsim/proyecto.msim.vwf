@@ -1917,7 +1917,8 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|RST")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 500.0;
 	}
 }
 
@@ -3972,8 +3973,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|AB[3]")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 150.0;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 50.5;
+		LEVEL 0 FOR 450.5;
 	}
 }
 
@@ -3984,9 +3984,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|AB[2]")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 350.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 600.5;
 	}
 }
 
@@ -4001,11 +3999,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|AB[1]")
 		LEVEL 1 FOR 100.0;
 		LEVEL 0 FOR 100.0;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 450.5;
 	}
 }
 
@@ -4024,16 +4018,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|AB[0]")
 		LEVEL 1 FOR 50.0;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -4042,9 +4027,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[10]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 549.5;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 400.5;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -4054,8 +4037,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[9]")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 499.5;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 450.5;
+		LEVEL 1 FOR 500.5;
 	}
 }
 
@@ -4066,8 +4048,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[8]")
 		REPEAT = 1;
 		LEVEL 0 FOR 449.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -4078,9 +4059,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[7]")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 0.5;
+		LEVEL 0 FOR 550.5;
 	}
 }
 
@@ -4091,9 +4070,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[6]")
 		REPEAT = 1;
 		LEVEL 0 FOR 349.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 600.5;
 	}
 }
 
@@ -4104,9 +4081,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[5]")
 		REPEAT = 1;
 		LEVEL 0 FOR 299.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.5;
+		LEVEL 0 FOR 650.5;
 	}
 }
 
@@ -4117,9 +4092,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[4]")
 		REPEAT = 1;
 		LEVEL 0 FOR 249.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 150.5;
+		LEVEL 0 FOR 700.5;
 	}
 }
 
@@ -4130,9 +4103,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[3]")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 200.5;
+		LEVEL 0 FOR 750.5;
 	}
 }
 
@@ -4143,9 +4114,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[2]")
 		REPEAT = 1;
 		LEVEL 0 FOR 149.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 250.5;
+		LEVEL 0 FOR 800.5;
 	}
 }
 
@@ -4156,9 +4125,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[1]")
 		REPEAT = 1;
 		LEVEL 0 FOR 99.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 300.5;
+		LEVEL 0 FOR 850.5;
 	}
 }
 
@@ -4169,9 +4136,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|E[0]")
 		REPEAT = 1;
 		LEVEL 0 FOR 49.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 350.5;
+		LEVEL 0 FOR 900.5;
 	}
 }
 
@@ -7889,16 +7854,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|AB[0]~output_o")
 		LEVEL 1 FOR 50.0;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -7913,11 +7869,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|AB[1]~output_o")
 		LEVEL 1 FOR 100.0;
 		LEVEL 0 FOR 100.0;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 450.5;
 	}
 }
 
@@ -7928,9 +7880,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|AB[2]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 350.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 600.5;
 	}
 }
 
@@ -7941,8 +7891,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|AB[3]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 150.0;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 50.5;
+		LEVEL 0 FOR 450.5;
 	}
 }
 
@@ -7953,9 +7902,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[0]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 49.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 350.5;
+		LEVEL 0 FOR 900.5;
 	}
 }
 
@@ -7966,9 +7913,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[1]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 99.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 300.5;
+		LEVEL 0 FOR 850.5;
 	}
 }
 
@@ -7979,9 +7924,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[2]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 149.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 250.5;
+		LEVEL 0 FOR 800.5;
 	}
 }
 
@@ -7992,9 +7935,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[3]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 200.5;
+		LEVEL 0 FOR 750.5;
 	}
 }
 
@@ -8005,9 +7946,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[4]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 249.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 150.5;
+		LEVEL 0 FOR 700.5;
 	}
 }
 
@@ -8018,9 +7957,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[5]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 299.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.5;
+		LEVEL 0 FOR 650.5;
 	}
 }
 
@@ -8031,9 +7968,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[6]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 349.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 600.5;
 	}
 }
 
@@ -8044,9 +7979,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[7]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 0.5;
+		LEVEL 0 FOR 550.5;
 	}
 }
 
@@ -8057,8 +7990,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[8]~output_o")
 		REPEAT = 1;
 		LEVEL 0 FOR 449.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -8068,8 +8000,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[9]~output_o")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 499.5;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 450.5;
+		LEVEL 1 FOR 500.5;
 	}
 }
 
@@ -8078,9 +8009,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[10]~output_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 549.5;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 400.5;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -8116,7 +8045,8 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|RST~input_o")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 500.0;
 	}
 }
 
@@ -8127,9 +8057,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~17_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 0.5;
+		LEVEL 0 FOR 550.5;
 	}
 }
 
@@ -11830,8 +11758,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S9~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 449.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -11842,8 +11769,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~22_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 449.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -11884,8 +11810,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~29_combout")
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 499.5;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 450.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -11896,8 +11821,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S0~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 49.5;
 		LEVEL 1 FOR 500.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 400.5;
+		LEVEL 0 FOR 450.5;
 	}
 }
 
@@ -11907,9 +11831,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~18_combout")
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 49.5;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 400.5;
+		LEVEL 0 FOR 950.5;
 	}
 }
 
@@ -11920,9 +11842,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S1~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 49.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 350.5;
+		LEVEL 0 FOR 900.5;
 	}
 }
 
@@ -11933,9 +11853,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~23_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 49.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 350.5;
+		LEVEL 0 FOR 900.5;
 	}
 }
 
@@ -11946,9 +11864,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~24_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 49.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 350.5;
+		LEVEL 0 FOR 900.5;
 	}
 }
 
@@ -11959,9 +11875,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S2~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 99.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 300.5;
+		LEVEL 0 FOR 850.5;
 	}
 }
 
@@ -11972,9 +11886,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~20_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 99.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 300.5;
+		LEVEL 0 FOR 850.5;
 	}
 }
 
@@ -11985,9 +11897,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S3~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 149.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 250.5;
+		LEVEL 0 FOR 800.5;
 	}
 }
 
@@ -12000,11 +11910,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|WideOr5~0_combout")
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 150.0;
 		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 300.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 150.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.5;
+		LEVEL 1 FOR 600.5;
 	}
 }
 
@@ -12015,9 +11921,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~26_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 149.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 250.5;
+		LEVEL 0 FOR 800.5;
 	}
 }
 
@@ -12028,9 +11932,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S4~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 200.5;
+		LEVEL 0 FOR 750.5;
 	}
 }
 
@@ -12041,9 +11943,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~19_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 200.5;
+		LEVEL 0 FOR 750.5;
 	}
 }
 
@@ -12054,9 +11954,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S5~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 249.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 150.5;
+		LEVEL 0 FOR 700.5;
 	}
 }
 
@@ -12075,16 +11973,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|WideOr6~combout")
 		LEVEL 1 FOR 50.0;
 		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -12095,9 +11984,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~25_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 249.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 150.5;
+		LEVEL 0 FOR 700.5;
 	}
 }
 
@@ -12108,9 +11995,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S6~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 299.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.5;
+		LEVEL 0 FOR 650.5;
 	}
 }
 
@@ -12125,11 +12010,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|WideOr5~combout")
 		LEVEL 1 FOR 100.0;
 		LEVEL 0 FOR 100.0;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 450.5;
 	}
 }
 
@@ -12140,9 +12021,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~21_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 299.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.5;
+		LEVEL 0 FOR 650.5;
 	}
 }
 
@@ -12153,9 +12032,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S7~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 349.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 600.5;
 	}
 }
 
@@ -12166,9 +12043,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|WideOr4~0_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 350.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 600.5;
 	}
 }
 
@@ -12179,9 +12054,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state~27_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 349.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 600.5;
 	}
 }
 
@@ -12192,9 +12065,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|state.S8~q")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 0.5;
+		LEVEL 0 FOR 550.5;
 	}
 }
 
@@ -12205,8 +12076,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|WideOr3~0_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 150.0;
-		LEVEL 0 FOR 400.0;
-		LEVEL 1 FOR 50.5;
+		LEVEL 0 FOR 450.5;
 	}
 }
 
@@ -16233,8 +16103,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[0]~1_combout")
 		REPEAT = 1;
 		LEVEL 1 FOR 49.5;
 		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 400.5;
+		LEVEL 1 FOR 450.5;
 	}
 }
 
@@ -16263,27 +16132,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[7]~0_combout")
 		LEVEL 1 FOR 1.0;
 		LEVEL 0 FOR 49.0;
 		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 49.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -16294,9 +16143,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[0]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 49.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 350.5;
+		LEVEL 0 FOR 900.5;
 	}
 }
 
@@ -16307,9 +16154,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[1]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 99.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 300.5;
+		LEVEL 0 FOR 850.5;
 	}
 }
 
@@ -16320,9 +16165,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[2]~reg0feeder_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 99.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 300.5;
+		LEVEL 0 FOR 850.5;
 	}
 }
 
@@ -16333,9 +16176,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[2]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 149.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 250.5;
+		LEVEL 0 FOR 800.5;
 	}
 }
 
@@ -16346,9 +16187,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[3]~reg0feeder_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 149.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 250.5;
+		LEVEL 0 FOR 800.5;
 	}
 }
 
@@ -16359,9 +16198,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[3]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 200.5;
+		LEVEL 0 FOR 750.5;
 	}
 }
 
@@ -16372,9 +16209,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[4]~reg0feeder_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 199.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 200.5;
+		LEVEL 0 FOR 750.5;
 	}
 }
 
@@ -16385,9 +16220,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[4]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 249.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 150.5;
+		LEVEL 0 FOR 700.5;
 	}
 }
 
@@ -16398,9 +16231,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[5]~reg0feeder_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 249.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 150.5;
+		LEVEL 0 FOR 700.5;
 	}
 }
 
@@ -16411,9 +16242,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[5]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 299.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.5;
+		LEVEL 0 FOR 650.5;
 	}
 }
 
@@ -16424,9 +16253,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[6]~reg0feeder_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 299.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 100.5;
+		LEVEL 0 FOR 650.5;
 	}
 }
 
@@ -16437,9 +16264,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[6]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 349.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 50.5;
+		LEVEL 0 FOR 600.5;
 	}
 }
 
@@ -16450,9 +16275,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[7]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 0.5;
+		LEVEL 0 FOR 550.5;
 	}
 }
 
@@ -16463,9 +16286,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[8]~reg0feeder_combout")
 		REPEAT = 1;
 		LEVEL 0 FOR 399.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 0.5;
+		LEVEL 0 FOR 550.5;
 	}
 }
 
@@ -16476,8 +16297,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[8]~reg0_q")
 		REPEAT = 1;
 		LEVEL 0 FOR 449.5;
 		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 500.0;
-		LEVEL 1 FOR 0.5;
+		LEVEL 0 FOR 500.5;
 	}
 }
 
@@ -16487,8 +16307,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[9]~reg0_q")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 499.5;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 450.5;
+		LEVEL 1 FOR 500.5;
 	}
 }
 
@@ -16508,9 +16327,7 @@ TRANSITION_LIST("Pastillero_vlg_vec_tst|i1|E[10]~reg0_q")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 549.5;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 400.5;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 

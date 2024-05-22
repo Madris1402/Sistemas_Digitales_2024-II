@@ -1,5 +1,5 @@
 EDA Netlist Writer report for proyecto
-Tue May 21 10:57:49 2024
+Tue May 21 22:20:06 2024
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue May 21 10:57:49 2024 ;
+; EDA Netlist Writer Status ; Successful - Tue May 21 22:20:06 2024 ;
 ; Revision Name             ; proyecto                              ;
 ; Top-level Entity Name     ; Pastillero                            ;
 ; Family                    ; Cyclone III                           ;
@@ -65,13 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+-----------------------------------------------------------------+
-; Simulation Generated Files                                      ;
-+-----------------------------------------------------------------+
-; Generated Files                                                 ;
-+-----------------------------------------------------------------+
-; C:/Users/ricma/Desktop/proyecto/simulation/modelsim/proyecto.vo ;
-+-----------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                     ;
++------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                ;
++------------------------------------------------------------------------------------------------+
+; D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Proyecto Final/simulation/modelsim/proyecto.vo ;
++------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue May 21 10:57:48 2024
+    Info: Processing started: Tue May 21 22:20:06 2024
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog proyecto -c proyecto
-Info (204019): Generated file proyecto.vo in folder "C:/Users/ricma/Desktop/proyecto/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file proyecto.vo in folder "D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Proyecto Final/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4503 megabytes
-    Info: Processing ended: Tue May 21 10:57:49 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4509 megabytes
+    Info: Processing ended: Tue May 21 22:20:06 2024
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 

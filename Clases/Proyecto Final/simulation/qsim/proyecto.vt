@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "05/21/2024 10:57:47"
+// Generated on "05/21/2024 22:20:05"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    Pastillero
 // 
@@ -122,76 +122,91 @@ end
 initial
 begin
 	AB_expected[3] = 1'bX;
+	AB_expected[3] = #999000 1'b0;
 end 
 // expected AB[ 2 ]
 initial
 begin
 	AB_expected[2] = 1'bX;
+	AB_expected[2] = #999000 1'b0;
 end 
 // expected AB[ 1 ]
 initial
 begin
 	AB_expected[1] = 1'bX;
+	AB_expected[1] = #999000 1'b0;
 end 
 // expected AB[ 0 ]
 initial
 begin
 	AB_expected[0] = 1'bX;
+	AB_expected[0] = #999000 1'b0;
 end 
 // expected E[ 10 ]
 initial
 begin
 	E_expected[10] = 1'bX;
+	E_expected[10] = #999000 1'b0;
 end 
 // expected E[ 9 ]
 initial
 begin
 	E_expected[9] = 1'bX;
+	E_expected[9] = #999000 1'b0;
 end 
 // expected E[ 8 ]
 initial
 begin
 	E_expected[8] = 1'bX;
+	E_expected[8] = #999000 1'b0;
 end 
 // expected E[ 7 ]
 initial
 begin
 	E_expected[7] = 1'bX;
+	E_expected[7] = #999000 1'b0;
 end 
 // expected E[ 6 ]
 initial
 begin
 	E_expected[6] = 1'bX;
+	E_expected[6] = #999000 1'b0;
 end 
 // expected E[ 5 ]
 initial
 begin
 	E_expected[5] = 1'bX;
+	E_expected[5] = #999000 1'b0;
 end 
 // expected E[ 4 ]
 initial
 begin
 	E_expected[4] = 1'bX;
+	E_expected[4] = #999000 1'b0;
 end 
 // expected E[ 3 ]
 initial
 begin
 	E_expected[3] = 1'bX;
+	E_expected[3] = #999000 1'b0;
 end 
 // expected E[ 2 ]
 initial
 begin
 	E_expected[2] = 1'bX;
+	E_expected[2] = #999000 1'b0;
 end 
 // expected E[ 1 ]
 initial
 begin
 	E_expected[1] = 1'bX;
+	E_expected[1] = #999000 1'b0;
 end 
 // expected E[ 0 ]
 initial
 begin
 	E_expected[0] = 1'bX;
+	E_expected[0] = #999000 1'b0;
 end 
 // generate trigger
 always @(AB_expected or AB or E_expected or E)
@@ -458,6 +473,7 @@ end
 initial
 begin
 	RST = 1'b1;
+	RST = #500000 1'b0;
 end 
 
 // w

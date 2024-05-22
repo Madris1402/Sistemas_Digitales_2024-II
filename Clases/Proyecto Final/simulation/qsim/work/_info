@@ -4,56 +4,56 @@ K3
 cModel Technology
 Z0 dC:\Users\ricma\Desktop\proyecto\simulation\qsim
 vPastillero
-Z1 I]oE9[NHI5z[am=Z]==nmW3
-Z2 VMWbbTbV:55hLS4B=XJ4F50
-Z3 dC:\Users\ricma\Desktop\proyecto\simulation\qsim
-Z4 w1716310669
-Z5 8proyecto.vo
-Z6 Fproyecto.vo
+Z1 !s100 n_9SoYX?bMRVM`854>mza0
+Z2 I]oE9[NHI5z[am=Z]==nmW3
+Z3 VMWbbTbV:55hLS4B=XJ4F50
+Z4 dD:\Escritorio\Sistemas_Digitales_2024-II\Clases\Proyecto Final\simulation\qsim
+Z5 w1716351606
+Z6 8proyecto.vo
+Z7 Fproyecto.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
-Z9 n@pastillero
+Z9 !s90 -work|work|proyecto.vo|
+Z10 o-work work -O0
+Z11 n@pastillero
 !i10b 1
-Z10 !s100 n_9SoYX?bMRVM`854>mza0
 !s85 0
-Z11 !s108 1716310670.993000
-Z12 !s107 proyecto.vo|
-Z13 !s90 -work|work|proyecto.vo|
+Z12 !s108 1716351607.326000
+Z13 !s107 proyecto.vo|
 !s101 -O0
 vPastillero_vlg_check_tst
 !i10b 1
-!s100 V;:PVV8]]LRIi9M0z^UUD3
-IXRVbm1DF48eIX[<hSJ^Pz0
-VbBYeUXeoWmFcEmYe@N`]S2
-R3
-Z14 w1716310667
+!s100 l<ZQ6g8QFhnea:hh5TWNO1
+I:a1]zX<1EF5ML?YiLY[PJ3
+Z14 VbBYeUXeoWmFcEmYe@N`]S2
+R4
+R5
 Z15 8proyecto.vt
 Z16 Fproyecto.vt
 L0 67
-R7
+R8
 r1
 !s85 0
 31
-Z17 !s108 1716310671.190000
+Z17 !s108 1716351607.517000
 Z18 !s107 proyecto.vt|
 Z19 !s90 -work|work|proyecto.vt|
 !s101 -O0
-R8
-n@pastillero_vlg_check_tst
+R10
+Z20 n@pastillero_vlg_check_tst
 vPastillero_vlg_sample_tst
 !i10b 1
-!s100 B>=c7jUHa@L4IZ<fNTal[2
-IR;[O[;R5SWXPaNKZeEh4:0
-V0PQP?5Z7=koT12F:UcZb40
-R3
-R14
+Z21 !s100 B>=c7jUHa@L4IZ<fNTal[2
+Z22 IR;[O[;R5SWXPaNKZeEh4:0
+Z23 V0PQP?5Z7=koT12F:UcZb40
+R4
+R5
 R15
 R16
 L0 29
-R7
+R8
 r1
 !s85 0
 31
@@ -61,19 +61,19 @@ R17
 R18
 R19
 !s101 -O0
-R8
-n@pastillero_vlg_sample_tst
+R10
+Z24 n@pastillero_vlg_sample_tst
 vPastillero_vlg_vec_tst
 !i10b 1
-!s100 XG6?OTd0<z>Z_zN5eFZe^2
-I23TW3;bziXkFgjRhP6CK>0
-VYhAFg0kI1oc77HWHb8^<@0
-R3
-R14
+!s100 2`:^0C<7FGY2k]DiLFQ2h2
+I4LaIPT>CCVaZgIO19=STf1
+Z25 VYhAFg0kI1oc77HWHb8^<@0
+R4
+R5
 R15
 R16
-L0 421
-R7
+Z26 L0 436
+R8
 r1
 !s85 0
 31
@@ -81,5 +81,5 @@ R17
 R18
 R19
 !s101 -O0
-R8
-n@pastillero_vlg_vec_tst
+R10
+Z27 n@pastillero_vlg_vec_tst

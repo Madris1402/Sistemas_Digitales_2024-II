@@ -1,7 +1,8 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/ricma/Desktop/proyecto/Pastillero.v
-source_file = 1, C:/Users/ricma/Desktop/proyecto/Pastillero.vwf
-source_file = 1, C:/Users/ricma/Desktop/proyecto/db/proyecto.cbx.xml
+source_file = 1, D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Proyecto Final/Pastillero.v
+source_file = 1, D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Proyecto Final/Pastillero.vwf
+source_file = 1, D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Proyecto Final/Reset.vwf
+source_file = 1, D:/Escritorio/Sistemas_Digitales_2024-II/Clases/Proyecto Final/db/proyecto.cbx.xml
 design_name = Pastillero
 instance = comp, \Add0~0 , Add0~0, Pastillero, 1
 instance = comp, \Add0~4 , Add0~4, Pastillero, 1
